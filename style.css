@@ -139,6 +139,9 @@ body {
   font-size: 14px;
   font-weight: 600;
   position: relative;
+
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
 
 .link-icon {
@@ -246,6 +249,7 @@ body {
     background-color: hsl(75, 94%, 57%);
     transform: scale(0.98);
   }
+}
 
   .profile a:active .link-text {
     opacity: 0;
